@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "pnpm -C packages/test start"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "tsx": "^4.16.2"
+  }
+}
