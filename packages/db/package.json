@@ -1,0 +1,16 @@
+{
+  "name": "@transgg/db",
+  "type": "module",
+  "scripts": {
+    "migrate:generate": "pnpm drizzle-kit generate",
+    "migrate:run": "pnpm esrun ./src/migrate.ts",
+    "migrate": "pnpm migrate:generate && pnpm migrate:run"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.32.0",
+    "mysql2": "^3.10.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.23.0"
+  }
+}

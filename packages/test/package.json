@@ -1,5 +1,9 @@
 {
+  "name": "@transgg/test",
   "scripts": {
-    "start": "pnpm tsx index.ts"
+    "start": "pnpm esrun index.ts"
+  },
+  "dependencies": {
+    "@transgg/config": "workspace:^"
   }
 }
